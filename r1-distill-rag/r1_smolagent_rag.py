@@ -189,7 +189,7 @@ primary_agent = ToolCallingAgent(
     tools=[process_query], 
     model=tool_model, 
     add_base_tools=False,
-    max_steps=2,
+    max_steps=4,
     system_prompt=system_prompt
 )
 
