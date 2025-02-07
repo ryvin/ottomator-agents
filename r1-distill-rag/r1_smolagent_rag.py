@@ -33,44 +33,45 @@ class RagReasoner:
             context = "\n\n".join(doc.page_content for doc in docs)
             
             # Create the reasoning prompt
-            prompt = f"""Based on the following context, answer the question. If the context doesn't contain relevant information, say so.
+            prompt = f"""Based on the following context, answer the question. 
+If the context doesn't contain relevant information, clearly state that.
 
 Context:
 {context}
 
 Question: {query}
 
-Remember to structure your response exactly as:
+Structure your response as follows:
+1. Start with "Thoughts:" followed by a brief analysis
+2. Then use this exact code block format:
 
-Thoughts: Brief analysis of the context and question
+Thoughts: Your brief analysis here
 Code:
 ```py
 print('''
-Your detailed answer here.
-Start with a clear summary,
-then provide supporting details,
-and end with key takeaways.
+Your detailed response here.
+Make it clear and structured.
 ''')
-```
-"""
+```"""
+            
             # Get response from reasoning model
             response = self.reasoner.run(prompt, reset=False)
             
-            # Ensure proper formatting
-            if "```py" in response and "Thoughts:" in response:
-                return response
-                
-            return f"""Thoughts: Analyzing the provided information
+            # If response is missing proper format, add it
+            if not ("Thoughts:" in response and "```py" in response):
+                response = f"""Thoughts: Analyzing available information
 Code:
 ```py
 print('''{response}''')
 ```"""
+            
+            return response
                 
         except Exception as e:
-            return f"""Thoughts: Error occurred while processing
+            return f"""Thoughts: Error processing query
 Code:
 ```py
-print('''Unable to process query: {str(e)}
+print('''Error: {str(e)}
 Please try rephrasing your question.''')
 ```"""
 
@@ -87,41 +88,40 @@ reasoning_model = get_model(reasoning_model_id)
 rag_reasoner = RagReasoner(reasoning_model, vectordb)
 
 @tool
-def rag_with_reasoner(user_query: str) -> str:
-    """Search and reason over documents to answer questions.
+def process_query(user_query: str) -> str:
+    """Process a user query using RAG and reasoning.
     
     Args:
-        user_query: The question to search for and answer.
+        user_query: The question to answer.
     
     Returns:
-        A formatted response with reasoning based on found documents.
+        str: The reasoned response based on available documents.
     """
     return rag_reasoner.process_query(user_query)
 
 # Create the primary agent
 tool_model = get_model(tool_model_id)
 system_prompt = """You are an AI assistant that helps answer questions using RAG.
-Your role is to:
-1. Use the rag_with_reasoner tool to search for and analyze information
-2. Review the reasoning model's output
-3. Present the findings clearly
 
 {{managed_agents_descriptions}}
 
-The rag_with_reasoner tool will provide responses in this format:
-Thoughts: Brief analysis
-Code:
-```py
-print('''Your detailed answer here''')
-```
+Your role is to:
+1. Use the process_query tool to get information
+2. Return the tool's response exactly as provided
+3. Do not modify or reformat the response
+4. Do not add calculations or extra processing
 
-Your job is to use this tool and relay its responses accurately."""
+Important:
+- Always use the process_query tool
+- Return its response without modification
+- Do not perform calculations
+- Maintain exact formatting"""
 
 primary_agent = ToolCallingAgent(
-    tools=[rag_with_reasoner], 
+    tools=[process_query], 
     model=tool_model, 
-    add_base_tools=False, 
-    max_steps=3,
+    add_base_tools=False,
+    max_steps=2,
     system_prompt=system_prompt
 )
 
