@@ -1,0 +1,524 @@
+So who am I well I've been involved in FOSS for almost two decades ago uh doing a lot
+1:02
+of different work in regards to that um currently I'm the executive director of IEEE SA open which is I believe most
+1:09
+of y'all hopefully who that is um essay is the standards portion and open is where we're doing work to
+1:15
+support open source open hardware and open data into the standards and so we have our own platform for doing that and
+1:21
+so some of the stuff that I'll be talking about comes from all of these different areas where I'm both doing
+1:27
+this work at IEEE there's a lot of stuff that's happening in regards to Inner Source um on the board for open at RIT which is
+1:34
+the University Rochester Institute of Technology and that that's their open source office and then also working with
+1:40
+public code and government and uh working on a bunch of good governance initiatives including the
+1:46
+osspg which is the original Source software project confidence best practices that we're doing
+1:53
+so that's what a lot so you know a lot of this is like
+2:00
+built upon some of the stuff in the past so some of the other talks that I've given in regards to this kind of leads
+2:06
+up to this kind of a culmination
+2:12
+but if you want to any additional work in regards to that I can give you a link to all the other presentations
+2:20
+um one of the major ones is why we started doing um these diverse advisories
+2:26
+I've been also talking about um you actually created a village which
+2:33
+is also you know the canopy board that I use for an ecosystem
+2:38
+so um and then also I gave a talk about unconscious gatekeeping and tools which
+2:44
+is one of the ways you can accidentally hurt your diversity um and also there's been a lot happening in the EU in regards to digital or data
+2:51
+autonomy and so a lot of that also
+2:58
+so first of all what do I mean by an ecosystem and to be quite honest I
+3:03
+started adopting this language because of Stephen Wally he gave gives a bunch of different talks about how open source
+3:09
+is not a business model and instead we need to be thinking about the ecosystem picture in regards to it
+3:15
+um and I think that that's a beautiful word for doing it because I normally think of it in regards to the biological context of where you can create these
+3:22
+little ecosystems that all really work together and if you forget anyone you're
+3:27
+not going to be sustainable and so that's why diversity becomes such a key element very few ecosystems
+3:34
+work correctly with with too much Singularity they need to have variety
+3:44
+so when I look at ecosystems right now in the open source world and the free and open source world I think of all of
+3:50
+these different groups that are coming together right now I feel like we're in a third era a free and open source our
+3:56
+first era was developers doing stuff for developers people don't like to admit it
+4:01
+but we were a bit supported um by government and Academia in regards
+4:06
+to that and so we were able to do all of this really amazing work like Apache and Linux and things of that nature and then
+4:14
+we entered into our second era which is when corporations started to get involved thank God we had the OSI in
+4:21
+regards to that because they really held the line in regards to what it meant to be open source and really held to that
+4:27
+culture and forced a lot of different entities to to adhere to that because otherwise I feel like we could have lost
+4:33
+our soul in regards to it because corporate has different agendas often than we do as volunteers and so it was
+4:40
+very good to have that but I feel like right now we're embarking in the Disturbed era and in this third area era
+4:46
+it's going to involve educational institutions foundations and governments
+4:52
+right now you know especially with what happened with log4j and things of that
+4:57
+other nature and what's also happening in Europe in regards to data autonomy governments are getting involved
+5:03
+and I feel like I'm kind of uniquely positioned in regards to standards for that because way too often thankfully in
+5:10
+some ways maybe not in others they first come to standards to look at what the standards are before they start making
+5:15
+those policy decisions and but I feel like open source has not been as involved in that to make that good
+5:23
+transition so we do have to think about that so that's why I included all of these stakeholders that I did because I
+5:29
+really do feel to get to that third level of the ecosystem we need to consider all of those groups and all of
+5:36
+those stakeholders were when we're creating the um projects that we're creating
+5:44
+so what do I mean by sustainable um I mean that it can be maintained I don't mean it has to always keep growing
+5:51
+we don't have to either that's that's buying into capitalism and I don't think I think that we do have to have
+5:59
+our ability to grow and let other things die while other things come up too and
+6:05
+so with sustainability I don't think it has to mean constantly growing but I think it does have to meet a certain
+6:11
+amount of reliability you know like what happened with DNS and some of those other different tools those tools did
+6:17
+not need to keep changing they were good it's just that they didn't have a sustainability enough so that when the
+6:23
+few errors that did come up or those different things happened we weren't able to evolve yeah because we let those
+6:30
+stagnate um so instead how do we actually look at making sure that those things don't stagnate and they continue to be viable
+6:37
+and upheld and so what do I mean by diversity well
+6:44
+gonna be honest with you I mean all of it if you're going to look at this one thing it was 39 different types I think
+6:51
+way too often we get kind of wrapped up in limiting those definitions and those
+6:57
+definitions are good we need labels it makes our lives easier right how do we measure something if we don't create
+7:03
+those but at the same time I ask that we not limit ourselves in regards to this
+7:08
+you know oftentimes in the corporate world when we talk about diversity we're talking about legally protected statuses
+7:16
+right we're talking about sex and gender and race and religion and age and
+7:21
+disabilities and things of that nature but I want us to go beyond that I want to talk about roles I want to talk about
+7:27
+locations I want to talk about languages I want to talk about experience levels I want to talk about all of those because
+7:34
+you know when I sit there and say it takes a village I really do mean that I really do mean that it takes a diverse
+7:39
+Village and especially for a lot of the work that we're doing it's worldwide it's Global we need to look globally in
+7:45
+regards to doing that so we need to look at all of those different forms of diversity
+7:52
+so right now we've got some ecosystems out there this is one of the ones that I love to do notice it spills off of The
+7:59
+Edge cncf this is their landscape diagram you know you opened it off of their website hope they don't mind
+8:06
+um but you can sit there and see what happens when the Landscapes get big right this is a big ecosystem
+8:16
+this is where the majority of us start off at in regards to our open source projects
+8:21
+we've got some code maybe we've got a little bit of a community going on if we're lucky we've created some processes
+8:27
+maybe we've gone a little bit beyond just the whole maintainer contributor relationship and I've kind of diagrammed
+8:33
+a little bit more than that hopefully we have some governance not necessarily do all groups have governance yet right
+8:38
+that's why we're trying to do the osspg but there's a big problem with that
+8:44
+and that when when does that open source project become an ecosystem right you're
+8:51
+going to need a certain amount of sustainability you're going to need a certain amount of maturity and you need a certain amount of reach to get there
+9:00
+so we run into this huge gap right where you have these open source projects they want to get to an
+9:07
+ecosystem or something resembling obviously we all don't want to be cncf but you know we want to get to somewhere
+9:13
+where we can actually bridge that Gap and there's a lot of information on doing a project and there's actually a
+9:19
+fair amount of information as to those ecosystems but there's not a lot bridging to two explaining how you can
+9:25
+get there um and then and the biggest problem that I see that happens is money
+9:31
+you sit there and you have an open source project we're all in there we're doing our thing we're trying to figure it out but when how do we figure out how
+9:39
+to handle the money question in regards to our when we want to create that ecosystem
+9:45
+and a lot of times it ends up being a chicken and eggs scenario I don't know if question 22 always you know if
+9:50
+everybody knows about that cross-culturally but it's it's when you're in a bind where you need something to do something you need that
+9:56
+to do that and so you just end up in this infinite Loop you know bad recursion
+10:02
+um and so I feel like money incurs this all of the time where people are like oh
+10:07
+we don't want to give you money because you don't have all these things in place oh but it takes money for me to give all
+10:13
+of those things in place even opening a bank account requires that right you have to be a business which means you
+10:19
+have to do filings which means you have to have you have to be a taxable entity it causes a lot of problems there's some
+10:25
+groups out there that are trying to help with that like open Collective which yay thank you thank God you're doing that
+10:32
+um but I feel like there needs to be more so to me one element in regards to how
+10:39
+you can make that jump is diversity you have to go out and look for other
+10:44
+different roles you know in the earlier in group that I talked about when you're talking about open source 1.0 you know
+10:51
+is developers and Developers those are not always the same people you want to make that growth to LEAP that
+10:58
+Gap uh you want to make sure that you've actually gone through and created this actual ecosystem and so that means
+11:03
+having things like evangelists who are going around and talking well about your stuff doing social media having event
+11:10
+organizers and writers and artists and you know most especially the users themselves had a great conversation this
+11:17
+afternoon with Alma Linux and that's a huge push in regards to what they did and why they're doing it the way that
+11:22
+they are is because they wanted to make sure that users had a really good voice in regards to that
+11:30
+so at IEEE one of the things that we did to to stress this was we created these advisory groups that advise the open
+11:37
+source committee that answers to the board and what they do is we purposely broke them out to where we have a community
+11:43
+Advisory Group which represents the users and non-profits because we are a non-profit entity we're
+11:50
+a 501c3 which in America means a member driven organization so our members and
+11:56
+our board makes the budgetary decisions so it's it's pretty hardcore in regards
+12:01
+to that it's not a trade Association it is um it works that way
+12:07
+um and then we created a marketing Advisory Group which is a little bit of a misnomer because it includes just more
+12:13
+than marketing it's like design and for a place for a lot of the artistic things
+12:18
+to exist and then they also do things like open source intelligence and all of these other different aspects they
+12:24
+created um a social media tool kit things of that nature and then we have the
+12:29
+technical Advisory Group which is similar to what most of y'all are used to seeing projects get when they Grinch
+12:35
+a certain size of having a technical steering committee that makes a lot of those technical decisions in regards to
+12:40
+architecture and features and what direction the software goes into so we purposely added these additional ones
+12:47
+you know I'll admit I totally crimped from the Linux foundation on that one I worked on hyperledger and we had a
+12:53
+marketing steering committee and I loved it and I loved the work that they did and so that's why I brought that over in
+12:59
+regards to Advisory Group and then I also saw how some of the Apache ones
+13:04
+actually had the community one as well they kind of owned more things like codes of conduct and things of that
+13:09
+nature to make sure that everything stayed nice and friendly and I kind of expanded the scope but you know it was
+13:14
+lessons learned from other open source projects and so for doing that you know it's
+13:20
+about when you want to bridge that Gap you have to remember that it's more than just code because once you start doing the money
+13:26
+parts and you start figuring those out you have to go out there and figure these other things out you need to talk
+13:31
+about marketing doing the different research working with designers and Architects and you know here's the one
+13:36
+that always gets some people a little bit into tizzy you do have to talk about management it doesn't mean
+13:42
+top-down hierarchical dictatorial style management that some of y'all experience
+13:47
+in your career it is very much so not bad it's still driven from a volunteer basis but it you know managers to me a
+13:55
+good one helps facilitate communication and so it ends up helping with that in
+14:00
+regards to the management it's not a top-down decision-making thing instead of say hey did you know that so-and-so
+14:06
+is going to go work on this feature and you're working on that feature maybe you two could work together you know things of that nature
+14:12
+and that way you can get to things like quality and safety and maturity because
+14:18
+that's the next thing that we have to scale with that 3.0 level where we have to deal with governments and when we're
+14:24
+dealing with academic institutions and non-profits we really have to be careful about what we're doing we're entering
+14:30
+into an age where you know I feel like it's just like electrical engineering back when IEEE got started right where
+14:36
+Nikolai Tesla and Edison were doing you know s and going in like electrifying poor
+14:43
+elephants like how horrible is that but standards needed to be created because they were danger they weren't
+14:49
+endangering people and we're seeing that with software now right we're watching things that end up being dangerous in
+14:55
+regards to what we're doing and how we're doing it and we need to have that more for us for making that next jump
+15:02
+into that next level and so that's why we're seeing things like openssf being created and the foundation for public
+15:08
+code and all these other different entities because we do realize we need to address the safety maturity and
+15:14
+quality issues so
+15:19
+um here we have some of the elements of a successful one as to how you get to that um again the diversity I think plays a
+15:26
+big role in regards to it and if you don't have the inclusive processes you
+15:31
+won't get to where you need to be and I really do feel that inclusive is the next step that you need to take in regards to diversity it's like okay
+15:37
+you've got all the people there listen to them please listen to them listen to how you
+15:45
+probably have to change some of your processes listen to how you might have to do something different in regards to
+15:50
+governance we're watching that happen right now with codes of conduct you know I got to watch that front and foremost
+15:56
+in regards to Drupal you know you really want to be there and and to help take care of those types of issues
+16:03
+um there's a bunch of studies out there on the Harvard Business Review did this whole thing for the past 20 years about
+16:10
+diversity and all the wins that you get they found that like 19 that businesses that were had more diverse governing
+16:17
+um groups made 19 more profit so there's a bunch of different ones that happen and
+16:23
+these are some of the different ones that you automatically get when you have diversity and you do and you have the
+16:29
+inclusion processes for that so without doing the inclusive ones your
+16:36
+diversity will go away if you don't include people and listen to them you'll lose the different things
+16:42
+the ones that I'd like to highlight for us most especially tools and governance you cannot depend purely on get be it
+16:50
+git lab or GitHub or gitly or whatever that is not inclusive that's not
+16:56
+inclusive to handicapped people that's not inclusive to all the different diverse roles that you have oh yeah go
+17:01
+put your account in git live and come back and talk to me about that afterwards um you'll have an accountant who wants
+17:07
+you dead uh you can't do that with governance either there has to be governance
+17:12
+I know that we're working on an open source governance standard but what that is is it's about shoulds because
+17:18
+governance reflect your culture and if you don't create governance from that inclusionary process you're going to
+17:24
+have problems and to be quite honest if you're not inclusive
+17:29
+are you really open are you really embodying that whole thing that we've been trying to work for
+17:36
+for so long in the past three decades
+17:41
+I would say philosophically you're probably not and then once you get there and you have
+17:47
+all of this then you have your resilience and this is the sustainability that we're all really
+17:53
+here trying to achieve is by going in there and doing that then you'll have all those processes you'll have the
+17:59
+marketing you need you'll have the ability to bring in a community and keep people there because they love it and
+18:04
+they want to keep doing what they're doing you'll be able to get the funding that you need you'll have all of those
+18:09
+different pieces if you go through and address those parts and then of course the other thing is
+18:15
+then you get the safety security maturity
+18:20
+so one other major element is looking at the diverse governance if you don't have inclusive leadership
+18:27
+you're going to have problems what does your steering committee look like if it's all just corporate
+18:33
+representation you're not going to have it you have to make sure like your users are in there
+18:39
+you have to make sure your developers are in there you've got to make sure that those people all come from
+18:44
+different walks of life and then you'll have much better governance than if they all look the same and they're all doing
+18:50
+the same thing you know look at Chad GPT you can tell that it was run by a bunch of dudes
+18:57
+it sounds like an overconfident 25 year old white male intern
+19:03
+you know diversify people come on you can do it you know one thing that I like to sit
+19:09
+there and see is do you have relationships with other non-profits who represent some of these different groups of people if you do then you're going to
+19:16
+get to where you need to be you want diverse sponsorship you don't want to go for just one company giving
+19:23
+you all the Monies it's very problematic it's not going to do well and then what happens when that
+19:28
+one business leaves you will not be sustainable um and also try to think of other revenue streams you know um with IEEE we
+19:35
+have membership that's a great way to do it you know it's not always accessible to everyone but you can do sliding scale there's a
+19:42
+lot of other different things that you can do um you can figure out other ways of making money you can do training you can
+19:47
+do certifications you can do all of these other different things look towards that as well don't stay just in
+19:52
+regards to um expecting sponsorship from other corporations it's not a healthy place to
+19:58
+be because then you will always be beholding to them and if you incorporate all these
+20:04
+different things it's a lot I know but then I believe that you will truly obtain sustainability and will be able
+20:11
+to grow and keep things going and thank you here's some of the links to some of the studies if you want a
+20:16
+copy of the slides I'll send them to you and uh thank you so much for having me I
+20:21
+really have enjoyed being here in Singapore the food has been amazing and I can't wait to go to the botanical
+20:27
+gardens tomorrow so yes thank you at all
+
+
+
+20:36
+do we have time for questions or anything oh yes um I'm just wondering whether it's
+20:42
+useful to expand your uh sustainably distortion
+20:48
+by adding a word in front of evolvable
+20:55
+evolvable sustainability I think yeah
+21:01
+it does unders it does underscore those those challenges because you can be sustainable at a lot of different levels
+21:07
+right we don't all have to grow to be cncf right we can be sustainable on these other different levels if we
+21:12
+address some of those you know properly and I think that's that's very true I think sometimes some projects might be
+21:18
+too small that they do need to come under an umbrella like you know Apache and eclipse and Linux foundation and
+21:24
+we're also trying to do that at IEEE but um I do believe that a lot of these
+21:30
+groups should be able to do it independently and be able to evolve from one size up to the other where you
+21:36
+should be able to be sustainable with a smaller group so that's one that's one thing that
+21:41
+we're trying to figure out right now is how do we assist that and I know that that's one of the things that governments are also trying to address
+21:47
+I'm constantly having conversations with governments their standards bodies and
+21:52
+you know Global non-profits because they want to invest money into these into
+21:57
+open source but they don't always know how to go about doing that correctly like right now I had a big conversation
+22:03
+about procurement you know how is how are one of us supposed to go and get procurement money
+22:09
+you know Biden just out there and said all of these millions billions of dollars supposed to be spent on open source and I'm like yeah and what's your
+22:16
+procurement path are we going to be doing are we going to apply for NSF grants because I think I'll kill myself
+22:22
+first again before I have to do one of those but you know it's not a sustainable thing and so we do have to
+22:28
+look forward in regards to how do we evolve to do that level of sustainability
+22:34
+so anything else yes
+22:43
+um if you have a diversity that people are to kind of come together
+22:50
+live all across the world in different types how can you effectively come together to
+22:56
+make decisions yeah yeah so it was a question about governance and how do you handle the
+23:02
+global impact in regards to governance when you have barriers like time zones and languages and even cultural ones how
+23:09
+do you actually deal with that um right now I am sad that I feel like the majority of tooling has you know
+23:15
+abandoned us in regards to that and it ends up being you know as high as she was like a very controversial topic you
+23:21
+know in regards to like how standards and consensus is done across the world everybody has their own little flavor in
+23:27
+regards to how to go through and do that and what is the right one um I don't think that there is always a
+23:33
+Defined answer in regards to that I think it is one of those things where you do have to always be active
+23:40
+listening in regards to that and figuring out the different ways to go and include that when I was at
+23:45
+hyperledger one of the ways that we did that is um and this isn't always my ideal way of
+23:50
+doing it but it worked for us is I put everybody on Confluence so that at least we could have multi-language support
+23:57
+at least all of the working groups could always post their meeting minutes and their findings and their studies and all
+24:03
+that kind of stuff and then everybody could translate it so that we could you know work together better with one
+24:09
+another to figure those different things out and that way when the steering committees were making their decisions
+24:14
+and judgment calls they could look at that compendium of evidence and go oh this is where these things are at this
+24:20
+is what's actually going on and what's happening here and so I think one key element is probably the centralization
+24:25
+and understanding that asynchronous aspects and then also the localization portions I think are going to be key and
+24:31
+crucial I'm hoping that open source can come together just try to create some of that that's one reason why I'm so
+24:37
+excited to be a part of the foundation for public code because that's you know some of the different discussions that
+24:43
+were happening and I think that that is happening on a global level right now among all those different groups
+24:48
+especially with the work that we're doing trying to incorporate open source and open data and open Hardware into
+24:53
+standards suddenly everyone's realizing oh how does that governance and consensus process work
+25:00
+and we're definitely going oh well how about here well how about over here can we do this so yeah it's definitely not a solved
+25:07
+problem but I think it's one of those things where working together we can hopefully get there
+25:12
+of course I might be building the Tower of Babel I don't know thank you
+25:21
+let's go to argument actually available yes it's true they're not available at
+25:27
+no cost um one of the things that we've been working on is trying to figure out which certain standards how can we make them
+25:33
+free and open open source and Open Standards are not the same thing they're not they're very different things they
+25:39
+evolved in very different ways the Open Standards means basically everyone is open to participate in them and there's
+25:45
+and so people they can have this diversity of voices that they need um but right now we're looking at some
+25:51
+different models because like for the osspg how are we going to make sure that that's free afterwards
+25:57
+um for the any of the other different open source style standards that we're doing how do we make sure that that is and we're working on some different revenue streams to make sure that it's
+26:04
+sustainable because with IEEE it is a 501c3 it is member driven but we want to
+26:10
+make sure that we don't accidentally you know um cut off our legs
+26:15
+while we're doing the different aspects of it so we are working on some of those different ones and I hope to be able to
+26:21
+like publicize some of them in the next year yes problem the same question for next week
+26:26
+we get for about six other energy series are okay yeah the 7000 series is is
+26:33
+available
+26:40
+um so the way that I understood it is we got sponsorship for doing that for the seven thousand students but it's
+26:46
+actually a little bit awkward right now because um I kind of got chastised by Khalia over iiw because
+26:53
+she's like it's not free and I was like well it is free the problem is if you went to explore it wasn't obviously free
+26:59
+you have to go through the website and then it's free on the website and one of the reasons we did that is because of
+27:04
+the sponsorship pieces right so you can go through there and get them for free um and so that's one of the things that
+27:10
+we're trying to like logistically figure out right now is how do we actually go through and do that to make sure that it
+27:16
+is all sustainable you know because we do spend a lot of money doing support and doing all these other different technical aspects for them because we
+27:23
+don't want to accidentally eat ourselves right we want to sit there and make sure that we're consistently there because we
+27:30
+are not profit making it's not that's not what we're here for um and so that's that's a that's a very
+27:36
+big deal to us yeah thank you thanks everyone thank you
+27:42
+for coming
