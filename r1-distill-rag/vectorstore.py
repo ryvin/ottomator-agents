@@ -1,8 +1,8 @@
 # vectorstore.py
 from typing import List, Dict, Any, Optional
 from pathlib import Path
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from dataclasses import dataclass
 
@@ -18,7 +18,8 @@ class VectorStoreManager:
     def __init__(self, persist_dir: str):
         self.persist_dir = persist_dir
         self.embeddings = HuggingFaceEmbeddings(
-            model_name="all-MiniLM-L6-v2"
+            model_name="all-MiniLM-L6-v2",
+            model_kwargs={'device': 'cpu'}  # Explicitly set device
         )
         self.vectorstore: Optional[Chroma] = None
 
@@ -42,6 +43,10 @@ class VectorStoreManager:
                     persist_directory=str(persist_path)
                 )
                 print("Vector store created successfully")
+            
+            if self.vectorstore:
+                # Persist after creation or loading
+                self.vectorstore.persist()
             
             return self.vectorstore
         

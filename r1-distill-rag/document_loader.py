@@ -11,6 +11,7 @@ from langchain_community.document_loaders import (
 )
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+import pandas as pd
 
 class DocumentProcessor:
     """Handles document loading and processing with enhanced metadata."""
@@ -36,7 +37,9 @@ class DocumentProcessor:
 
     def __init__(self):
         """Initialize the document processor."""
-        pass
+        # Initialize pandas display options for better CSV handling
+        pd.set_option('display.max_columns', None)
+        pd.set_option('display.max_rows', None)
 
     def load_documents(self, data_dir: str) -> List[Document]:
         """Load documents from the specified directory."""
@@ -46,9 +49,20 @@ class DocumentProcessor:
         for file_path in data_path.rglob("*"):
             if file_path.suffix.lower() in self.SUPPORTED_EXTENSIONS:
                 try:
-                    loader_class = self.SUPPORTED_EXTENSIONS[file_path.suffix.lower()]
-                    loader = loader_class(str(file_path))
-                    documents.extend(loader.load())
+                    # Special handling for Excel files
+                    if file_path.suffix.lower() == '.xlsx':
+                        # Use pandas for Excel files
+                        df = pd.read_excel(file_path)
+                        # Convert DataFrame to string format
+                        content = df.to_string(index=False)
+                        documents.append(Document(
+                            page_content=content,
+                            metadata={'source': str(file_path)}
+                        ))
+                    else:
+                        loader_class = self.SUPPORTED_EXTENSIONS[file_path.suffix.lower()]
+                        loader = loader_class(str(file_path))
+                        documents.extend(loader.load())
                     print(f"Loaded {file_path}")
                 except Exception as e:
                     print(f"Error loading {file_path}: {e}")
