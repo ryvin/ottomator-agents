@@ -1,0 +1,83 @@
+2025-02-08 22:33:13,162 - RAGProcessor - INFO - Starting Smart Document Assistant
+2025-02-08 22:33:13,164 - RAGProcessor - INFO - Data directory: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-08 22:33:13,164 - RAGProcessor - INFO - Database directory: E:\Code\r1-rag-crewai\r1-distill-rag\chroma_db
+2025-02-08 22:33:14,173 - RAGProcessor - INFO - Checking Ollama availability at http://localhost:11434/api/tags
+2025-02-08 22:33:16,237 - RAGProcessor - INFO - Ollama response status: 200
+2025-02-08 22:33:16,238 - RAGProcessor - INFO - Available models: ['deepseek-r1:32b', 'deepseek-r1:14b', 'qwen2.5:7b-instruct', 'qwen2.5:14b-instruct', 'qwen:14b', 'deepseek-r1:7b', 'nomic-embed-text:latest', 'llama3.1:latest', 'starcoder2:3b', 'codestral:latest', 'phi3:14b', 'wizardlm2:7b', 'mannix/dolphin-2.9-llama3-8b:latest', 'llama3:latest', 'Meta-Llama-3-8B-Instruct.Q8_0.gguf:latest', 'crewai-wizardlm2:7b', 'wizardlm2:latest', 'crewai-llama3:8b', 'llama3:8b']
+2025-02-08 22:33:20,231 - RAGProcessor - INFO - Loaded 142 documents
+2025-02-08 22:33:32,107 - RAGProcessor - INFO - Starting GUI...
+2025-02-08 22:33:32,436 - RAGProcessor - INFO - Starting server on 127.0.0.1:7860
+2025-02-08 22:34:25,737 - RAGProcessor - INFO - Creating new chain...
+2025-02-08 22:34:25,738 - RAGProcessor - INFO - Processing query: Would Raul Pineda be a good candidate for: 
+Chief Information Officer 
+Austin, TX · 1 week ago · Over 100 people clicked apply
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+ Full-time
+Matches your job preferences, job type is Full-time.
+5 of 10 skills match: Team Leadership, Strategy, IT Management, Information Technology, IT Strategy
+5 of 10 required skills are found on your profile
+
+Apply
+
+Save
+Save Chief Information Officer  at Phelps Dunbar LLP
+Chief Information Officer
+Phelps Dunbar LLP · Austin, TX (Hybrid)
+
+Apply
+
+Save
+Save Chief Information Officer  at Phelps Dunbar LLP
+Show more options
+Your AI-powered job assessment
+
+
+Am I a good fit?
+
+Tailor my resume
+
+How can I best position myself?
+
+People you can reach out to
+The University of Texas at Austin logo
+The University of Texas at Austin logo
+School alumni from The University of Texas at Austin
+
+Show all
+About the job
+The CIO will collaborate with executive leadership on the Firm’s vision for the future. This role will lead the planning and execution of strategic technology solutions for this changing industry giving the Firm an advantage over its competition. The right person will balance technology needs, add what will actually be used and appropriate for the Firm, and know the right timing to roll out enhancements. This position must focus on making technology available to those who require it most and making it user friendly and accessible. Learning and understanding the environment will be an important aspect of success. The CIO will manage communications and identify best practices for technical training strategies so that products and tools are actually used and not just available. This position is a balance of strategic and hands-on involvement. The CIO will be responsible for assisting in the leadership of technology while partnering with the Firm’s external technology provider and vendors to ensure high levels of customer service. 
+
+ 
+
+Key Responsibilities:
+
+ Lead the development of near- and long-term technology strategy at the Firm, in collaboration with leaders in alignment with the Firm’s long-term strategic direction.
+ Collaborate with the Firm leadership to establish the strategy and lead the planning and execution of technology initiatives.
+ Identify new tools and technologies; anticipate what is needed for the changing legal industry that Phelps will need to execute.
+ Oversee relevant contract negotiations with vendors, contractors, and service providers.
+ Establish short- and long-term goals and develop strategies to acquire technology to meet the needs.
+ Experience partnering with an external technology vendor successfully.
+ Staying abreast of emerging technologies that can improve the Firm’s performance and profits.
+ Creating and implementing technology policies, protocols, communications, and training.
+
+
+Education and Experience: 
+
+ Bachelor’s degree in information technology, computer science, business, or a related field.
+ Must possess strong leadership abilities, and interpersonal skills to build relationships across the Firm, excellent leadership and team management skills with effective communication and customer service skills.
+ Proven experience in a senior technology leadership role, with a track record of successfully developing and executing strategies in alignment with goals.
+ Strong understanding of IT infrastructure, software development, data management, and cybersecurity and AI best practices.
+ Demonstrated ability leading a team and driving complex projects.
+ Excellent communication, presentation, and collaboration skills, with the ability to work effectively with cross-functional teams and executive leadership.
+ Strong problem-solving and decision-making skills, with a focus on innovation and operational excellence.
+ Excellent analytical, problem-solving, and decision-making ability.
+ Legal industry expertise preferred. Knowledge of emerging legal technology trends, cost-effectiveness, strong communication skills to explain complex information to non-technical stakeholders and evaluate fit and efficacy for the Firm.
+Responsible for updating and successfully implementing a technology policy and plans across the Firm in support of information security, customer service, and responsible technology usage.
+
+2025-02-08 22:34:58,915 - RAGProcessor - INFO - Query processed successfully
+2025-02-08 22:38:39,880 - RAGProcessor - INFO - Query processed successfully
+2025-02-08 22:41:23,887 - RAGProcessor - INFO - Query processed successfully
+2025-02-08 22:43:35,240 - RAGProcessor - INFO - Query processed successfully
+2025-02-08 22:45:46,910 - RAGProcessor - INFO - Query processed successfully

@@ -1,0 +1,11 @@
+2025-02-08 23:04:06,641 - RAGProcessor - INFO - Starting Smart Document Assistant
+2025-02-08 23:04:06,644 - RAGProcessor - INFO - Data directory: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-08 23:04:06,644 - RAGProcessor - INFO - Database directory: E:\Code\r1-rag-crewai\r1-distill-rag\chroma_db
+2025-02-08 23:04:07,652 - RAGProcessor - INFO - Checking Ollama availability at http://localhost:11434/api/tags
+2025-02-08 23:04:09,782 - RAGProcessor - INFO - Ollama response status: 200
+2025-02-08 23:04:09,782 - RAGProcessor - INFO - Available models: ['deepseek-r1:32b', 'deepseek-r1:14b', 'qwen2.5:7b-instruct', 'qwen2.5:14b-instruct', 'qwen:14b', 'deepseek-r1:7b', 'nomic-embed-text:latest', 'llama3.1:latest', 'starcoder2:3b', 'codestral:latest', 'phi3:14b', 'wizardlm2:7b', 'mannix/dolphin-2.9-llama3-8b:latest', 'llama3:latest', 'Meta-Llama-3-8B-Instruct.Q8_0.gguf:latest', 'crewai-wizardlm2:7b', 'wizardlm2:latest', 'crewai-llama3:8b', 'llama3:8b']
+2025-02-08 23:04:14,025 - RAGProcessor - INFO - Loaded 142 documents
+2025-02-08 23:04:26,290 - RAGProcessor - INFO - Starting GUI...
+2025-02-08 23:04:26,604 - RAGProcessor - INFO - Starting server on 127.0.0.1:7860
+2025-02-08 23:05:55,885 - RAGProcessor - INFO - Creating new chain...
+2025-02-08 23:06:51,304 - RAGProcessor - INFO - Query processed successfully

@@ -1,0 +1,9 @@
+2025-02-11 13:34:51,982 - RAGProcessor - INFO - Starting Smart Document Assistant
+2025-02-11 13:34:51,984 - RAGProcessor - INFO - Data directory: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 13:34:51,984 - RAGProcessor - INFO - Database directory: E:\Code\r1-rag-crewai\r1-distill-rag\chroma_db
+2025-02-11 13:34:52,993 - RAGProcessor - INFO - Checking Ollama availability at http://localhost:11434/api/tags
+2025-02-11 13:34:55,028 - RAGProcessor - INFO - Ollama response status: 200
+2025-02-11 13:34:55,029 - RAGProcessor - INFO - Available models: ['deepseek-r1:32b', 'deepseek-r1:14b', 'qwen2.5:7b-instruct', 'qwen2.5:14b-instruct', 'qwen:14b', 'deepseek-r1:7b', 'nomic-embed-text:latest', 'llama3.1:latest', 'starcoder2:3b', 'codestral:latest', 'phi3:14b', 'wizardlm2:7b', 'mannix/dolphin-2.9-llama3-8b:latest', 'llama3:latest', 'Meta-Llama-3-8B-Instruct.Q8_0.gguf:latest', 'crewai-wizardlm2:7b', 'wizardlm2:latest', 'crewai-llama3:8b', 'llama3:8b']
+2025-02-11 13:35:02,724 - RAGProcessor - INFO - Loaded 181 documents
+2025-02-11 13:35:19,967 - RAGProcessor - INFO - Starting GUI...
+2025-02-11 13:35:20,031 - RAGProcessor - ERROR - An error occurred: 'Markdown' object has no attribute 'every'

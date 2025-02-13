@@ -1,0 +1,15 @@
+2025-02-08 21:54:25,538 - RAGProcessor - INFO - Starting Smart Document Assistant
+2025-02-08 21:54:25,544 - RAGProcessor - INFO - Data directory: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-08 21:54:25,545 - RAGProcessor - INFO - Database directory: E:\Code\r1-rag-crewai\r1-distill-rag\chroma_db
+2025-02-08 21:54:26,552 - RAGProcessor - INFO - Checking Ollama availability at http://localhost:11434/api/tags
+2025-02-08 21:54:28,719 - RAGProcessor - INFO - Ollama response status: 200
+2025-02-08 21:54:28,719 - RAGProcessor - INFO - Available models: ['deepseek-r1:32b', 'deepseek-r1:14b', 'qwen2.5:7b-instruct', 'qwen2.5:14b-instruct', 'qwen:14b', 'deepseek-r1:7b', 'nomic-embed-text:latest', 'llama3.1:latest', 'starcoder2:3b', 'codestral:latest', 'phi3:14b', 'wizardlm2:7b', 'mannix/dolphin-2.9-llama3-8b:latest', 'llama3:latest', 'Meta-Llama-3-8B-Instruct.Q8_0.gguf:latest', 'crewai-wizardlm2:7b', 'wizardlm2:latest', 'crewai-llama3:8b', 'llama3:8b']
+2025-02-08 21:54:32,667 - RAGProcessor - INFO - Loaded 139 documents
+2025-02-08 21:54:45,106 - RAGProcessor - INFO - Starting GUI...
+2025-02-08 21:54:45,194 - RAGProcessor - INFO - Starting server on 127.0.0.1:7860
+2025-02-08 21:55:25,937 - RAGProcessor - INFO - Processing query: tell me about Raul Pineda
+
+2025-02-08 21:55:25,947 - RAGProcessor - INFO - Copied file to: E:\Code\r1-rag-crewai\r1-distill-rag\data\Raul_Pineda - Saronic .pdf
+2025-02-08 21:55:25,948 - RAGProcessor - INFO - Processing uploaded file: E:\Code\r1-rag-crewai\r1-distill-rag\data\Raul_Pineda - Saronic .pdf
+2025-02-08 21:55:26,574 - RAGProcessor - INFO - Created 385 chunks from uploaded file
+2025-02-08 21:56:17,233 - RAGProcessor - INFO - Query processed successfully

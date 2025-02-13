@@ -1,0 +1,235 @@
+2025-02-11 13:05:35,731 - RAGProcessor - INFO - Starting Smart Document Assistant
+2025-02-11 13:05:35,733 - RAGProcessor - INFO - Data directory: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 13:05:35,733 - RAGProcessor - INFO - Database directory: E:\Code\r1-rag-crewai\r1-distill-rag\chroma_db
+2025-02-11 13:05:36,743 - RAGProcessor - INFO - Checking Ollama availability at http://localhost:11434/api/tags
+2025-02-11 13:05:38,789 - RAGProcessor - INFO - Ollama response status: 200
+2025-02-11 13:05:38,790 - RAGProcessor - INFO - Available models: ['deepseek-r1:32b', 'deepseek-r1:14b', 'qwen2.5:7b-instruct', 'qwen2.5:14b-instruct', 'qwen:14b', 'deepseek-r1:7b', 'nomic-embed-text:latest', 'llama3.1:latest', 'starcoder2:3b', 'codestral:latest', 'phi3:14b', 'wizardlm2:7b', 'mannix/dolphin-2.9-llama3-8b:latest', 'llama3:latest', 'Meta-Llama-3-8B-Instruct.Q8_0.gguf:latest', 'crewai-wizardlm2:7b', 'wizardlm2:latest', 'crewai-llama3:8b', 'llama3:8b']
+2025-02-11 13:05:42,720 - RAGProcessor - INFO - Loaded 142 documents
+2025-02-11 13:05:55,346 - RAGProcessor - INFO - Starting GUI...
+2025-02-11 13:05:55,407 - RAGProcessor - INFO - Status Check - Documents: 11, Vector Store: Ready, Chain: Not Initialized
+2025-02-11 13:05:55,445 - RAGProcessor - INFO - Started monitoring folder: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 13:05:55,446 - RAGProcessor - INFO - Starting server on 127.0.0.1:7860
+2025-02-11 13:07:25,155 - RAGProcessor - INFO - Stopped folder monitoring
+2025-02-11 13:07:25,157 - RAGProcessor - INFO - Started monitoring folder: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 13:07:25,157 - RAGProcessor - INFO - Processing folder change: initial - E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 13:07:29,779 - RAGProcessor - INFO - Processed 770 chunks from 181 documents
+2025-02-11 13:07:39,742 - RAGProcessor - INFO - Successfully updated knowledge base
+2025-02-11 13:07:49,632 - RAGProcessor - INFO - Stopped folder monitoring
+2025-02-11 13:07:49,633 - RAGProcessor - INFO - Started monitoring folder: E:\Code\r1-rag-crewai\r1-distill-rag\data\resumes
+2025-02-11 13:07:49,633 - RAGProcessor - INFO - Processing folder change: initial - E:\Code\r1-rag-crewai\r1-distill-rag\data\resumes
+2025-02-11 13:07:54,036 - RAGProcessor - INFO - Processed 385 chunks from 39 documents
+2025-02-11 13:08:01,437 - RAGProcessor - INFO - Successfully updated knowledge base
+2025-02-11 13:10:09,031 - RAGProcessor - INFO - Creating new chain...
+2025-02-11 13:10:09,033 - RAGProcessor - INFO - Processing query: Would Raul Pineda be a good candidate for this position
+Senior Director, Implementation 
+Austin, TX � 2 weeks ago � 66 people clicked apply
+
+$130K/yr - $255K/yr
+ On-site
+Matches your job preferences, workplace type is On-site.
+ Full-time
+Matches your job preferences, job type is Full-time.
+
+Apply
+
+Save
+Save Senior Director, Implementation  at Rippling
+Senior Director, Implementation
+Rippling � Austin, TX (On-site)
+
+Apply
+
+Save
+Save Senior Director, Implementation  at Rippling
+Show more options
+Your AI-powered job assessment
+
+
+
+Am I a good fit?
+
+Tailor my resume
+
+How can I best position myself?
+
+People you can reach out to
+The University of Texas at Austin logo
+The University of Texas at Austin logo
+School alumni from The University of Texas at Austin
+
+Show all
+About the job
+About Rippling
+
+Rippling gives businesses one place to run HR, IT, and Finance. It brings together all of the workforce systems that are normally scattered across a company, like payroll, expenses, benefits, and computers. For the first time ever, you can manage and automate every part of the employee lifecycle in a single system.
+
+Take onboarding, for example. With Rippling, you can hire a new employee anywhere in the world and set up their payroll, corporate card, computer, benefits, and even third-party apps like Slack and Microsoft 365뾞ll within 90 seconds.
+
+Based in San Francisco, CA, Rippling has raised $1.4B from the world뭩 top investors뾦ncluding Kleiner Perkins, Founders Fund, Sequoia, Greenoaks, and Bedrock뾞nd was named one of America's best startup employers by Forbes.
+
+We prioritize candidate safety. Please be aware that all official communication will only be sent from @Rippling.com addresses.
+
+About The Role
+
+Implementation is an essential differentiator for Rippling and a critical time in the customer journey. As the Senior Director of Implementation, you will lead the ~150+ FTE US Implementation team, responsible for guiding new and existing US-based customers through the onboarding process. Overseeing six distinct customer segments, you will manage, mentor, empower, and grow your leadership team to meet and exceed key performance metrics in the areas of customer experience, time to value, product adoption, and team productivity.
+
+The ideal candidate for this role is a seasoned senior leader with extensive experience building and executing strategic initiatives aligned with key business goals.
+
+What You Will Do
+
+Hire, mentor, and grow high-performing teams that consistently meet and exceed quarterly goals and targets and deliver high-quality implementation services to clients. 
+Build, maintain, and execute quarterly plans aligned with business objectives. 
+Develop, monitor, and manage key performance metrics. 
+Leverage a data-driven approach to building and optimizing scalable implementation strategies processes that drive efficiency and an improved customer experience. 
+Collaborate with senior leaders across Rippling to achieve organizational and company goals. 
+Collaborate with sales and post-sales teams to ensure a seamless transition from sales to implementation to account management & customer support. 
+Identify and mitigate risks associated with implementation projects, proactively addressing challenges to ensure successful outcomes. 
+Foster a culture relentlessly focused on delighting customers in Implementation & maximizing adoption of Rippling뭩 products and services
+
+What you will need
+
+You have 10+ years of professional experience leading an Implementation or Customer Success team within a fast-paced environment, startup, or SaaS organization. 
+Deep understanding of systems and operations with B2B or B2C products. 
+Experience hiring and managing a distributed team. 
+Proven track record of success in scaling teams and maintaining SLAs as well as other key performance metrics. 
+A data-driven approach to developing, tracking and optimizing performance metrics. 
+Lead by example with a learning mindset, people-first attitude, and strong sense of responsibility for your domain. 
+Self-motivated, detail-attentive, action-driven with the ability to take initiative, execute, and follow-through. 
+Highly effective communicator with good people instincts - able to build trust and work well with a diverse group inside and outside the company. 
+Eager for a very hands-on role, where you뭠l be asked to take on and run with a range of initiatives outside your comfort zone and learn quickly. 
+Highly organized, self-motivated, and detail-oriented, with great follow-through on initiatives big and small. 
+High integrity individual who뭩 enthusiastic about building a great company for the long term. 
+Courage to challenge the status quo when logic and reason require it. See something broken? Fix it. 
+
+Additional Information
+
+Rippling is an equal opportunity employer. We are committed to building a diverse and inclusive workforce and do not discriminate based on race, religion, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, age, sexual orientation, veteran or military status, or any other legally protected characteristics, Rippling is committed to providing reasonable accommodations for candidates with disabilities who need assistance during the hiring process. To request a reasonable accommodation, please email accomodations@rippling.com
+
+Rippling highly values having employees working in-office to foster a collaborative work environment and company culture. For office-based employees (employees who live within a 40 mile radius of a Rippling office), Rippling considers working in the office, at least three days a week under current policy, to be an essential function of the employee's role.
+
+This role will receive a competitive salary + benefits + equity. The salary for US-based employees will be aligned with one of the ranges below based on location; see which tier applies to your location here.
+
+A variety of factors are considered when determining someone뭩 compensation뻟ncluding a candidate뭩 professional background, experience, and location. Final offer amounts may vary from the amounts listed below.
+
+The pay range for this role is:
+
+153,000 - 255,000 USD per year(US Tier 1)
+
+137,700 - 229,500 USD per year(US Tier 2)
+
+130,050 - 216,750 USD per year(US Tier 3)
+
+
+If so create a custom resume for it and cover letter
+
+2025-02-11 13:10:53,868 - RAGProcessor - INFO - Query processed successfully
+2025-02-11 13:11:36,675 - RAGProcessor - INFO - Stopped folder monitoring
+2025-02-11 13:11:36,677 - RAGProcessor - INFO - Started monitoring folder: E:\Code\r1-rag-crewai\r1-distill-rag\data\resumes
+2025-02-11 13:11:36,677 - RAGProcessor - INFO - Processing folder change: initial - E:\Code\r1-rag-crewai\r1-distill-rag\data\resumes
+2025-02-11 13:11:40,877 - RAGProcessor - INFO - Processed 385 chunks from 39 documents
+2025-02-11 13:11:47,783 - RAGProcessor - INFO - Successfully updated knowledge base
+2025-02-11 13:12:15,097 - RAGProcessor - INFO - Creating new chain...
+2025-02-11 13:12:15,098 - RAGProcessor - INFO - Processing query: Based on resumes documents Would Raul Pineda be a good candidate for this position
+Senior Director, Implementation 
+Austin, TX � 2 weeks ago � 66 people clicked apply
+
+$130K/yr - $255K/yr
+ On-site
+Matches your job preferences, workplace type is On-site.
+ Full-time
+Matches your job preferences, job type is Full-time.
+
+Apply
+
+Save
+Save Senior Director, Implementation  at Rippling
+Senior Director, Implementation
+Rippling � Austin, TX (On-site)
+
+Apply
+
+Save
+Save Senior Director, Implementation  at Rippling
+Show more options
+Your AI-powered job assessment
+
+
+
+Am I a good fit?
+
+Tailor my resume
+
+How can I best position myself?
+
+People you can reach out to
+The University of Texas at Austin logo
+The University of Texas at Austin logo
+School alumni from The University of Texas at Austin
+
+Show all
+About the job
+About Rippling
+
+Rippling gives businesses one place to run HR, IT, and Finance. It brings together all of the workforce systems that are normally scattered across a company, like payroll, expenses, benefits, and computers. For the first time ever, you can manage and automate every part of the employee lifecycle in a single system.
+
+Take onboarding, for example. With Rippling, you can hire a new employee anywhere in the world and set up their payroll, corporate card, computer, benefits, and even third-party apps like Slack and Microsoft 365뾞ll within 90 seconds.
+
+Based in San Francisco, CA, Rippling has raised $1.4B from the world뭩 top investors뾦ncluding Kleiner Perkins, Founders Fund, Sequoia, Greenoaks, and Bedrock뾞nd was named one of America's best startup employers by Forbes.
+
+We prioritize candidate safety. Please be aware that all official communication will only be sent from @Rippling.com addresses.
+
+About The Role
+
+Implementation is an essential differentiator for Rippling and a critical time in the customer journey. As the Senior Director of Implementation, you will lead the ~150+ FTE US Implementation team, responsible for guiding new and existing US-based customers through the onboarding process. Overseeing six distinct customer segments, you will manage, mentor, empower, and grow your leadership team to meet and exceed key performance metrics in the areas of customer experience, time to value, product adoption, and team productivity.
+
+The ideal candidate for this role is a seasoned senior leader with extensive experience building and executing strategic initiatives aligned with key business goals.
+
+What You Will Do
+
+Hire, mentor, and grow high-performing teams that consistently meet and exceed quarterly goals and targets and deliver high-quality implementation services to clients. 
+Build, maintain, and execute quarterly plans aligned with business objectives. 
+Develop, monitor, and manage key performance metrics. 
+Leverage a data-driven approach to building and optimizing scalable implementation strategies processes that drive efficiency and an improved customer experience. 
+Collaborate with senior leaders across Rippling to achieve organizational and company goals. 
+Collaborate with sales and post-sales teams to ensure a seamless transition from sales to implementation to account management & customer support. 
+Identify and mitigate risks associated with implementation projects, proactively addressing challenges to ensure successful outcomes. 
+Foster a culture relentlessly focused on delighting customers in Implementation & maximizing adoption of Rippling뭩 products and services
+
+What you will need
+
+You have 10+ years of professional experience leading an Implementation or Customer Success team within a fast-paced environment, startup, or SaaS organization. 
+Deep understanding of systems and operations with B2B or B2C products. 
+Experience hiring and managing a distributed team. 
+Proven track record of success in scaling teams and maintaining SLAs as well as other key performance metrics. 
+A data-driven approach to developing, tracking and optimizing performance metrics. 
+Lead by example with a learning mindset, people-first attitude, and strong sense of responsibility for your domain. 
+Self-motivated, detail-attentive, action-driven with the ability to take initiative, execute, and follow-through. 
+Highly effective communicator with good people instincts - able to build trust and work well with a diverse group inside and outside the company. 
+Eager for a very hands-on role, where you뭠l be asked to take on and run with a range of initiatives outside your comfort zone and learn quickly. 
+Highly organized, self-motivated, and detail-oriented, with great follow-through on initiatives big and small. 
+High integrity individual who뭩 enthusiastic about building a great company for the long term. 
+Courage to challenge the status quo when logic and reason require it. See something broken? Fix it. 
+
+Additional Information
+
+Rippling is an equal opportunity employer. We are committed to building a diverse and inclusive workforce and do not discriminate based on race, religion, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, age, sexual orientation, veteran or military status, or any other legally protected characteristics, Rippling is committed to providing reasonable accommodations for candidates with disabilities who need assistance during the hiring process. To request a reasonable accommodation, please email accomodations@rippling.com
+
+Rippling highly values having employees working in-office to foster a collaborative work environment and company culture. For office-based employees (employees who live within a 40 mile radius of a Rippling office), Rippling considers working in the office, at least three days a week under current policy, to be an essential function of the employee's role.
+
+This role will receive a competitive salary + benefits + equity. The salary for US-based employees will be aligned with one of the ranges below based on location; see which tier applies to your location here.
+
+A variety of factors are considered when determining someone뭩 compensation뻟ncluding a candidate뭩 professional background, experience, and location. Final offer amounts may vary from the amounts listed below.
+
+The pay range for this role is:
+
+153,000 - 255,000 USD per year(US Tier 1)
+
+137,700 - 229,500 USD per year(US Tier 2)
+
+130,050 - 216,750 USD per year(US Tier 3)
+
+
+If so create a custom resume for it and cover letter
+
+2025-02-11 13:12:31,155 - RAGProcessor - INFO - Query processed successfully
+2025-02-11 13:21:11,338 - RAGProcessor - INFO - Stopped folder monitoring

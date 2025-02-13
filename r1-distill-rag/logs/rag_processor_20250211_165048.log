@@ -1,0 +1,14 @@
+2025-02-11 16:50:48,574 - RAGProcessor - INFO - Starting Smart Document Assistant
+2025-02-11 16:50:48,576 - RAGProcessor - INFO - Data directory: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 16:50:48,577 - RAGProcessor - INFO - Database directory: E:\Code\r1-rag-crewai\r1-distill-rag\chroma_db
+2025-02-11 16:50:49,585 - RAGProcessor - INFO - Checking Ollama availability at http://localhost:11434/api/tags
+2025-02-11 16:50:51,731 - RAGProcessor - INFO - Ollama response status: 200
+2025-02-11 16:50:51,732 - RAGProcessor - INFO - Available models: ['deepseek-r1:32b', 'deepseek-r1:14b', 'qwen2.5:7b-instruct', 'qwen2.5:14b-instruct', 'qwen:14b', 'deepseek-r1:7b', 'nomic-embed-text:latest', 'llama3.1:latest', 'starcoder2:3b', 'codestral:latest', 'phi3:14b', 'wizardlm2:7b', 'mannix/dolphin-2.9-llama3-8b:latest', 'llama3:latest', 'Meta-Llama-3-8B-Instruct.Q8_0.gguf:latest', 'crewai-wizardlm2:7b', 'wizardlm2:latest', 'crewai-llama3:8b', 'llama3:8b']
+2025-02-11 16:51:00,144 - RAGProcessor - INFO - Loaded 181 documents
+2025-02-11 16:51:17,249 - RAGProcessor - INFO - Starting GUI...
+2025-02-11 16:51:17,349 - RAGProcessor - INFO - Started monitoring folder: E:\Code\r1-rag-crewai\r1-distill-rag\data
+2025-02-11 16:51:17,350 - RAGProcessor - INFO - Starting server on 127.0.0.1:7860
+2025-02-11 16:51:46,298 - RAGProcessor - INFO - Creating new chain...
+2025-02-11 16:51:46,299 - RAGProcessor - ERROR - Error creating chain: 'EnhancedRAGProcessor' object has no attribute 'create_chain'
+2025-02-11 16:52:43,076 - RAGProcessor - INFO - Creating new chain...
+2025-02-11 16:52:43,077 - RAGProcessor - ERROR - Error creating chain: 'EnhancedRAGProcessor' object has no attribute 'create_chain'
